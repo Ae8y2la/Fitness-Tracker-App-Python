@@ -14,57 +14,57 @@ st.markdown(
     background-color: #E2D6C9 !important;
     color: #233326 !important;
 }
-/* Step 2: Set text color for h1 */
+/* Set text color for h1 */
 h1 {
     color: #233326 !important;
 }
 
-/* Step 3: Set text color for h2 */
+/* Set text color for h2 */
 h2 {
     color: #233326 !important;
 }
 
-/* Step 4: Set text color for h3 */
+/* Set text color for h3 */
 h3 { 
     color: ##D9B991 !important;
 }
 
-/* Step 5: Set text color for h4 */
+/* Set text color for h4 */
 h4 {
     color: #D9B991 !important; 
 }
 
-/* Step 6: Set text color for h5 */
+/* Set text color for h5 */
 h5 {
     color: #D9B991 !important; 
 }
 
-/* Step 7: Set text color for h6 */
+/* Set text color for h6 */
 h6 {
     color: #D9B991 !important; 
 }
 
-/* Step 8: Set text color for paragraphs (p) */
+/* Set text color for paragraphs (p) */
 p {
     color: #233326 !important; 
 }
 
-/* Step 9: Set text color for labels */
+/* Set text color for labels */
 label {
     color: #D9B991 !important; 
 }
 
-/* Step 10: Set text color for divs */
+/* Set text color for divs */
 div {
     color: #626C3B !important; 
 }
 
-/* Step 11: Set text color for spans */
+/* Set text color for spans */
 span {
     color: #D9B991 !important; 
 }
 
-/* Step 12: Set text color for links (a) */
+/* Set text color for links (a) */
 a {
     color: #D9B991 !important;
 }
@@ -332,5 +332,18 @@ with tab5:
                     st.rerun()  
     else:
         st.info("No current goals set")
+
+# Securing line (copyright notice)
+st.markdown(
+    """
+    <div style="text-align: center; margin-top: 50px; color: #8F6246; font-size: 14px;">
+        © 2025 Aeyla Naseer. This code is protected under copyright law. Unauthorized copying is prohibited.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# Print statement (optional, for terminal/logging purposes)
+print("© 2025 Aeyla Naseer. This code is protected under copyright law. Unauthorized copying is prohibited.")
         
  # ----------------------------------------------------THE-END---------------------------------------------------------------- 
